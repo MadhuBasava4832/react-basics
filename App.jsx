@@ -3,6 +3,9 @@ import Fun from './components/fordemo';
 import Modul from './components/module.module.css';
 import Naruto from '../src/assets/naruto(23).jpeg';
 import { Icons } from './components/8-8';
+import { Parent } from './components/10-8';
+import { UseStatehook } from './hooks/14-8_usestate';
+
 function App() {
   const internal={
     internalstyle:{
@@ -23,7 +26,11 @@ function App() {
       <Fun/> */}
 
 
-        <Icons/>
+        {/* <Icons/> */}
+
+        {/* <Parent/> */}
+
+        <UseStatehook/>
 
 
     </>
