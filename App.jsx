@@ -5,6 +5,7 @@ import Naruto from '../src/assets/naruto(23).jpeg';
 import { Icons } from './components/8-8';
 import { Parent } from './components/10-8';
 import { UseStatehook } from './hooks/14-8_usestate';
+import { Useeffecthook } from './hooks/17-8_useEffect';
 
 function App() {
   const internal={
@@ -30,8 +31,9 @@ function App() {
 
         {/* <Parent/> */}
 
-        <UseStatehook/>
+        {/* <UseStatehook/> */}
 
+        <Useeffecthook/>
 
     </>
   )
