@@ -12,6 +12,8 @@ export const UseStatehook = () => {
             setcounterany(counterany + 1);
             setb(!b);
         }
+            // setcounterany(counterany + 1);
+
 
     }
     const Decrease = () => {

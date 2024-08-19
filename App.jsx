@@ -6,6 +6,7 @@ import { Icons } from './components/8-8';
 import { Parent } from './components/10-8';
 import { UseStatehook } from './hooks/14-8_usestate';
 import { Useeffecthook } from './hooks/17-8_useEffect';
+import { ListsMaps } from './hooks/19-8_lists_maps';
 
 function App() {
   const internal={
@@ -33,7 +34,9 @@ function App() {
 
         {/* <UseStatehook/> */}
 
-        <Useeffecthook/>
+        {/* <Useeffecthook/> */}
+
+        <ListsMaps/>
 
     </>
   )
