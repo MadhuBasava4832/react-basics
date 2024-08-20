@@ -7,6 +7,7 @@ import { Parent } from './components/10-8';
 import { UseStatehook } from './hooks/14-8_usestate';
 import { Useeffecthook } from './hooks/17-8_useEffect';
 import { ListsMaps } from './hooks/19-8_lists_maps';
+import { Objectmaps } from './hooks/20-8';
 
 function App() {
   const internal={
@@ -36,7 +37,11 @@ function App() {
 
         {/* <Useeffecthook/> */}
 
-        <ListsMaps/>
+        {/* <ListsMaps/> */}
+
+        <Objectmaps/>
+
+
 
     </>
   )
