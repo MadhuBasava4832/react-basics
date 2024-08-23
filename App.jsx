@@ -8,6 +8,9 @@ import { UseStatehook } from './hooks/14-8_usestate';
 import { Useeffecthook } from './hooks/17-8_useEffect';
 import { ListsMaps } from './hooks/19-8_lists_maps';
 import { Objectmaps } from './hooks/20-8';
+import { Slick } from './react slick/21-8_carousel';
+import { Arrayobj } from './components/22-8';
+import { Sorting } from './components/23-8_sorting';
 
 function App() {
   const internal={
@@ -39,7 +42,13 @@ function App() {
 
         {/* <ListsMaps/> */}
 
-        <Objectmaps/>
+        {/* <Objectmaps/> */}
+
+        {/* <Slick/> */}
+
+        {/* <Arrayobj/> */}
+
+        <Sorting/>
 
 
 
