@@ -10,6 +10,10 @@
     width: 80%;
     height: 80%;
     border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
 }
 .child{
     width: 300px;
