@@ -14,7 +14,7 @@ export const Slick = () => {
         slidesToShow: 3,
         slidesToScroll: 1,
         autoplay:true,
-        arrows: true, // Enable arrows
+        arrows: true,
         
     }
 
@@ -38,19 +38,18 @@ function ReactSlick() {
     const settings = {
         dots: true,
         slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToScroll: 1,
         infinite: true,
+        
         speed: 400,
         autoplay: true,
+        autoplaySpeed: 1000,
         responsive: [
             {
                 breakpoint: 700,
                 settings: {
                     dots: false,
                     slidesToShow: 2,
-                    slidesToScroll: 2,
-                    infinite: true,
-                    speed: 400,
                 }
             },
             {

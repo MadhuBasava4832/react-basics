@@ -12,8 +12,11 @@ import ReactSlick, { Slick } from './react slick/21-8_carousel';
 import { Arrayobj } from './components/22-8';
 import { Filtering, Sorting } from './components/23-8_sorting';
 import { MouseEvents, Onchangeevents, OnclickEvent } from './components/eventhandling/27-8';
-import { Typesofinputs } from './components/forms/28-8';
-import { Formssubmit } from './components/forms/4-9';
+import { Typesofinputs } from './components/forms and local storage/28-8';
+import { Formssubmit } from './components/forms and local storage/4-9';
+import { Form9 } from './components/forms and local storage/5-9_localstorage';
+import { SignupPageduplicate } from './components/forms and local storage/6-9';
+import { Navigations1 } from './navigations/main1';
 
 function App() {
   const internal={
@@ -62,7 +65,13 @@ function App() {
 
         {/* <Typesofinputs/> */}
 
-        <Formssubmit/>
+        {/* <Formssubmit/> */}
+
+        {/* <Form9/> */}
+
+        {/* <SignupPageduplicate/> */}
+
+        <Navigations1/>
 
     </>
   )

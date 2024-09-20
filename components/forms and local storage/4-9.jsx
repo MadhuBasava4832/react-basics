@@ -2,16 +2,6 @@ import { useState } from "react"
 
 export const Formssubmit=()=>{
 
-    const [name,setname]=useState('');
-    const [number,setnumber]=useState();
-    const [email,setemail]=useState('');
-    const [password,setpassword]=useState('');
-
-
-
-
-
-
    const [us,setus] = useState({
     name:'',
     number:'',
@@ -33,11 +23,13 @@ export const Formssubmit=()=>{
    }
    const checkfun = () => {
     setcheckvalue(!checkvalue);
-    console.log(checkvalue);
+    var cx=!checkvalue;
+    console.log(cx);
    }
    const genderfun = (e) => {
+    var xc=e.target.value;
     setgender(e.target.value);
-    console.log(gender);
+    console.log(xc);
    }
    const selectcollege = (e) => {
     setcollege(college);
