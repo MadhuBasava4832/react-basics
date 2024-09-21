@@ -69,7 +69,7 @@ function App() {
 
         {/* <Form9/> */}
 
-        {/* <SignupPageduplicate/> */}
+        <SignupPageduplicate/>
 
         <Navigations1/>
 

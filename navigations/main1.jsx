@@ -14,7 +14,7 @@ export const Navigations1 = () => {
                     <Route path="/" element={<Home />}>
                         <Route index element={<Home1/>}/>
                         <Route path="/about" element={<About />} />
-                        <Route path="/contact" element={<Contact />} />
+                        <Route path="/contact/:id" element={<Contact />} />
 
                     </Route>
                 </Routes>
